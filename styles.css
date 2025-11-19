@@ -62,6 +62,26 @@
     padding: 50px 50px 50px 50px;
 }
 
+.about {
+    background-color: white;
+}
+
+.about2 {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    row-gap: 40px;
+}
+
 .logo {
     display: flex;
     flex-direction: row;
@@ -86,7 +106,7 @@
     height: 479px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .pupu {
