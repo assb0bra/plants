@@ -11,6 +11,8 @@
    max-width: 1440px; 
    margin: 0 auto;
    padding: 65px 30px;
+   font-family: "Stack Sans Text", sans-serif;
+   font-style: normal;
    background-color: rgba(96, 217, 156, 0.115);
 }
 
@@ -32,6 +34,10 @@
     color: #e4610f;
 }
 
+.header-menu li {
+    font-size: 16px;
+}
+
 .welcome {
     max-width: 1440px; 
     margin: 0 auto;
@@ -47,12 +53,16 @@
     column-gap: 225px;
 }
 
+.plants {
+    font-size: 16px;
+}
+
 #learn-more {
     border-radius: 12px;
     background-color: #E0673300;
     border: 2px solid #e4610f;
     padding: 16px 30px;
-    
+    font-size: 16px;
 }
 
 .text1 {
@@ -60,6 +70,14 @@
     margin: 0 auto;
     font-size: 20px;
     padding: 50px 50px 50px 50px;
+}
+
+.text1 h1 {
+    font-size: 45px;
+}
+
+.text1 p {
+    font-size: 20px;
 }
 
 .about {
@@ -80,6 +98,14 @@
     flex-direction: column;
     align-self: center;
     row-gap: 40px;
+}
+
+.text2 h1 {
+    font-size: 40px;
+}
+
+.textp2 {
+    font-size: 20px;
 }
 
 .logo {
@@ -110,20 +136,15 @@
 }
 
 .pupu {
-  .stack-sans-text-uniquifier {
-  font-family: "Stack Sans Text", sans-serif;
-  font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;
-}
 }
 
 .pupu span {
-    color: rgb(51, 216, 13);
+    color: #499A18;
 }
 
 .pipi {
-    color: rgb(51, 216, 13);
+    color: #499A18;
 }
 
 .pepe {
@@ -131,5 +152,305 @@
 }
 
 .pipi2 {
-    color: rgb(51, 216, 13);
+    color: #499A18;
+}
+
+.service {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(96, 217, 156, 0.115);
+}
+
+h2 {
+    width: 306px;
+    height: 94px;
+    font-size: 40px;
+    color: #499A18;
+}
+
+.service-btns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 38px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: center;
+    column-gap: 142px;
+    margin-left: -200px;
+    margin-bottom: 90px;
+}
+
+.gardens-btn {
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+}
+
+.lawn-btn {
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+}
+
+.planting-btn {
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+}
+
+.service-item-gardens h3 {
+    font-size: 20px;
+}
+
+.service-item-gardens p {
+    font-size: 16px;
+}
+
+.service-item-planting h3 {
+    font-size: 20px;
+}
+
+.service-item-planting p {
+    font-size: 16px;
+}
+
+.service-item-lawn h3 {
+    font-size: 20px;
+}
+
+.service-item-lawn p {
+    font-size: 16px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 117px;
+    row-gap: 55px;
+}
+
+.services-img {
+    width: 329px;
+    height: 350px;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.services-img img {
+    width: 329px;
+    margin-top: -65px;
+}
+
+.services-img-donut {
+    width: 329px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.services-img-donut img {
+    width: 329px;
+    height: 350px
+}
+
+.lorem-ipsum {
+    width: 330px;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #E3E1D5;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #E06733;
+}
+
+.lorem-ipsum p {
+    display: flex;
+    justify-content: center;
+    color: #717171;
+}
+
+.prices {
+    max-width: 1440px; 
+    height: 560px;
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prices-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.prices-img-wrapper {
+    width: 1222px;
+    height: 405px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#leafs2 {
+    width: 152px;
+    height: 175px;
+} 
+
+.text-call-us span {
+    color: #499A18;
+}
+
+.text-call-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.call-us-btn {
+    width: 162px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+}
+
+.prices2 {
+    width: 332px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 60px;
+}
+
+.prices2 p {
+    width: 135px;
+    height: 49px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-call-us p {
+    width: 452px;
+    height: 103px;
+    font-size: 40px;
+}
+
+.prices-item {
+    width: 332px;
+    height: 283px;
+    border: #E3E1D5 solid 1px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.price-item {
+    width: 250px;
+    height: 215px;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 32px;
+    padding: 34px 41px;
+}
+
+.price-btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: rgba(96, 217, 156, 0.115);
+}
+
+.contacts {
+    max-width: 1440px; 
+    height: 550px;
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(96, 217, 156, 0.115);
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts-container button {
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #D6E7D2;
+}
+
+.contacts p {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #499A18;
+}
+
+#contact-woman {
+    width: 500px;
+    height: 597px;
+    margin-top: -35px;
+}
+
+footer {
+    width: 1440px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.github {
+    display: flex;
+    column-gap: 20px;
+}
+
+.content-footer {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding: 109px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list {
+    display: flex;
+    column-gap: 10px;
 }
