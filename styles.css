@@ -1,0 +1,530 @@
+@import url(https://fonts.googleapis.com/css2?family=Inika&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,700;1,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital@0;1&display=swap);
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: inherit;
+}
+
+.wrapper { 
+   max-width: 1440px; 
+   margin: 0 auto;
+   padding: 65px 30px;
+   font-family: "Stack Sans Text", sans-serif;
+   font-style: normal;
+   background-color: rgba(96, 217, 156, 0.115);
+}
+
+.navbar {
+    /* padding: 110px 40px 105px 40px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    font-weight: 400;
+    font-family: "Inika";
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type:  none;
+    gap: 40px;
+}
+
+.header-menu span {
+    color: #e4610f;
+}
+
+.header-menu li {
+    font-size: 16px;
+}
+
+.welcome {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding: 65px 30px;
+    background-color: rgba(96, 217, 156, 0.115);
+}
+
+.welcome-leafs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 225px;
+}
+
+.plants {
+    font-size: 16px;
+}
+
+#learn-more {
+    border-radius: 12px;
+    background-color: #E0673300;
+    border: 2px solid #e4610f;
+    padding: 16px 30px;
+    font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.text1 {
+    max-width: 1440px; 
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 42px;
+    padding: 50px;
+    margin-right: 110px;
+}
+
+.text1 h1 {
+    font-size: 45px;
+    font-family: "Inter Tight";
+    font-weight: 700;
+}
+
+.text1 p {
+    font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.about {
+    background-color: white;
+}
+
+.about2 {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    row-gap: 40px;
+}
+
+.text2 h1 {
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "Inika";
+}
+
+.textp2 {
+    font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#leaf {
+    width: 20px;
+    height: 20px;
+}
+
+#leafs {
+    width: 449px;
+    height: 407px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#flowerpot {
+    width: 464px;
+    height: 479px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.pupu {
+  font-weight: weight;
+}
+
+.pupu span {
+    color: #499A18;
+}
+
+.pipi {
+    color: #499A18;
+}
+
+.pepe {
+    color: #e4610f;
+}
+
+.pipi2 {
+    color: #499A18;
+}
+
+.service {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(96, 217, 156, 0.115);
+}
+
+h2 {
+    width: 306px;
+    height: 94px;
+    font-size: 40px;
+    color: #499A18;
+}
+
+.service-btns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 38px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: center;
+    column-gap: 142px;
+    margin-left: -200px;
+    margin-bottom: 90px;
+    font-family: "Inika";
+    font-weight: 400;
+}
+
+.gardens-btn {
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+}
+
+.lawn-btn {
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+}
+
+.planting-btn {
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+}
+
+.service-item-gardens h3 {
+    font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 700;
+}
+
+.service-item-gardens p {
+    font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.service-item-planting h3 {
+    font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 700;
+}
+
+.service-item-planting p {
+    font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.service-item-lawn h3 {
+    font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 700;
+}
+
+.service-item-lawn p {
+    font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 117px;
+    row-gap: 55px;
+}
+
+.services-img {
+    width: 329px;
+    height: 350px;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.services-img img {
+    width: 329px;
+    margin-top: -65px;
+}
+
+.services-img-donut {
+    width: 329px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.services-img-donut img {
+    width: 329px;
+    height: 350px
+}
+
+.lorem-ipsum {
+    width: 330px;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #E3E1D5;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #E06733;
+}
+
+.lorem-ipsum p {
+    display: flex;
+    justify-content: center;
+    color: #717171;
+}
+
+.prices {
+    max-width: 1440px; 
+    height: 560px;
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prices-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.prices-img-wrapper {
+    width: 1222px;
+    height: 405px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.img-arrow {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+#leafs2 {
+    width: 152px;
+    height: 175px;
+} 
+
+.text-call-us span {
+    color: #499A18;
+}
+
+.text-call-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.call-us-btn {
+    width: 162px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #E0673300;
+    border: 2px solid #E06733;
+    color: #E06733;
+    font-family: "Inika";
+    font-weight: 700;
+}
+
+.prices2 {
+    width: 332px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 60px;
+    font-family: "Inter Tight";
+    font-weight: 700;
+}
+
+.prices2 p {
+    width: 135px;
+    height: 49px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-call-us p {
+    width: 452px;
+    height: 103px;
+    font-size: 40px;
+    font-family: "Inter Tight";
+    font-weight: 700;
+}
+
+.prices-item {
+    width: 332px;
+    height: 283px;
+    border: #E3E1D5 solid 1px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.price-item {
+    width: 250px;
+    height: 215px;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 32px;
+    padding: 34px 41px;
+}
+
+.price-btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: rgba(96, 217, 156, 0.115);
+}
+
+#circle {
+   display: flex;
+  
+}
+
+.contacts {
+    max-width: 1440px; 
+    height: 550px;
+    margin: 0 auto;
+    padding: 109px 94px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(96, 217, 156, 0.115);
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.contacts-container button {
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #D6E7D2;
+}
+
+.contacts p {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inika";
+    font-weight: 700;
+    color: #499A18;
+}
+
+#contact-woman {
+    width: 500px;
+    height: 597px;
+    margin-top: -35px;
+}
+
+footer {
+    width: 1440px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.github {
+    display: flex;
+    column-gap: 20px;
+}
+
+.content-footer {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding: 109px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-footer p {
+    font-family: "Inter Tight";
+    font-weight: 400;
+}
+
+.social-list {
+    display: flex;
+    column-gap: 10px;
+}
