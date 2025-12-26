@@ -1,4 +1,8 @@
-@import url(https://fonts.google.com/selection/embed);
+@import url(https://fonts.googleapis.com/css2?family=Inika&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,700;1,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital@0;1&display=swap);
 
 *, ::before, ::after {
     margin: 0;
@@ -20,6 +24,11 @@
     /* padding: 110px 40px 105px 40px; */
     display: flex;
     justify-content: space-between;
+}
+
+header {
+    font-weight: 400;
+    font-family: "Inika";
 }
 
 .header-menu {
@@ -63,21 +72,32 @@
     border: 2px solid #e4610f;
     padding: 16px 30px;
     font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .text1 {
     max-width: 1440px; 
     margin: 0 auto;
     font-size: 20px;
-    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 42px;
+    padding: 50px;
+    margin-right: 110px;
 }
 
 .text1 h1 {
     font-size: 45px;
+    font-family: "Inter Tight";
+    font-weight: 700;
 }
 
 .text1 p {
     font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .about {
@@ -101,11 +121,15 @@
 }
 
 .text2 h1 {
+    font-weight: 400;
     font-size: 40px;
+    font-family: "Inika";
 }
 
 .textp2 {
     font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .logo {
@@ -122,6 +146,7 @@
 #leafs {
     width: 449px;
     height: 407px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -185,6 +210,8 @@ h2 {
     column-gap: 142px;
     margin-left: -200px;
     margin-bottom: 90px;
+    font-family: "Inika";
+    font-weight: 400;
 }
 
 .gardens-btn {
@@ -219,26 +246,38 @@ h2 {
 
 .service-item-gardens h3 {
     font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 700;
 }
 
 .service-item-gardens p {
     font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .service-item-planting h3 {
     font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 700;
 }
 
 .service-item-planting p {
     font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .service-item-lawn h3 {
     font-size: 20px;
+    font-family: "Inter Tight";
+    font-weight: 700;
 }
 
 .service-item-lawn p {
     font-size: 16px;
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .services {
@@ -316,6 +355,17 @@ h3 {
     align-items: flex-end;
 }
 
+.img-arrow {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
 #leafs2 {
     width: 152px;
     height: 175px;
@@ -340,6 +390,8 @@ h3 {
     background-color: #E0673300;
     border: 2px solid #E06733;
     color: #E06733;
+    font-family: "Inika";
+    font-weight: 700;
 }
 
 .prices2 {
@@ -350,6 +402,8 @@ h3 {
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 60px;
+    font-family: "Inter Tight";
+    font-weight: 700;
 }
 
 .prices2 p {
@@ -364,6 +418,8 @@ h3 {
     width: 452px;
     height: 103px;
     font-size: 40px;
+    font-family: "Inter Tight";
+    font-weight: 700;
 }
 
 .prices-item {
@@ -396,6 +452,11 @@ h3 {
     background-color: rgba(96, 217, 156, 0.115);
 }
 
+#circle {
+   display: flex;
+  
+}
+
 .contacts {
     max-width: 1440px; 
     height: 550px;
@@ -409,12 +470,18 @@ h3 {
 .contacts-container {
     display: flex;
     justify-content: flex-end;
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .contacts-container button {
     width: 450px;
     height: 50px;
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
     background-color: #D6E7D2;
 }
 
@@ -422,6 +489,8 @@ h3 {
     font-size: 40px;
     display: flex;
     justify-content: center;
+    font-family: "Inika";
+    font-weight: 700;
     color: #499A18;
 }
 
@@ -448,6 +517,11 @@ footer {
     padding: 109px 40px;
     display: flex;
     justify-content: space-between;
+}
+
+.content-footer p {
+    font-family: "Inter Tight";
+    font-weight: 400;
 }
 
 .social-list {
