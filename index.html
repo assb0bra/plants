@@ -17,7 +17,7 @@
                     </div>
                     <nav>
                         <ul class="header-menu">
-                            <li><span>Home</span></li>
+                            <li class="text-color_orange">Home</li>
                             <li>About us</li>
                             <li>Service</li>
                             <li>Price</li>
@@ -25,18 +25,16 @@
                         </ul>
                     </nav>
             </header>
-        </div> <!--лишний закрывающий div-->
         <main>
-            <section class="welcome"> <!--здесь класс не нужен вообще, у тебя в css всего 2 свойства на нем
-                margin можно вообще убрать, а background-color дать диву; нужно посмотреть про тег section-->
+            <section> 
                 <div class="welcome-leafs">
-                    <div class="Welcome-section"> <!-- формат названия класса неверный -->
+                    <div class="welcome-section">
                         <div class="text1">
-                            <h1 class="pupu">We grow <span>plants</span> and give you oxygen</h1> <!--от пупу нужно избавиться >_<-->
-                            <p>Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum
-                                has
-                                been the <br> industry's standard dummy text ever since the 1500s.</p>
-                                <!-- br лучше убрать и попробовать добиться иначе желаемого результата-->
+                            <h1 class="welcome-header">We grow <span class="text-color_green">plants</span> and give you oxygen</h1>
+                            <p>Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard
+                            dummy text ever since the 1500s.</p>
                             <button id="learn-more" type="learnmore"> LEARN MORE </button>
                         </div>
                     </div>
@@ -47,19 +45,16 @@
             </section>
             <section class="about">
                 <div class="about2">
-                    <img id="flowerpot" src="about.png" alt="flowerpot"> <!--картинку лучше обернуть в див, будет удобнее работать с ней-->
+                    <div><img id="flowerpot" src="about.png" alt="flowerpot"></div>
                     <div class="text2">
-                        <h1> <span class="pipi"> We are </span> <span class="pepe"> professional <br> experienced </span>
-                            <span class="pipi2"> gardeners </span> </h1> <!--пипы пепы убираем-->
-                        <p class="textp2">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry.
-                            Lorem Ipsum has been
-                            the industry's <br> standard dummy text ever since the 1500s, when an unknown <br> printer took
-                            a galley
-                            of type and scrambled it to make a type <br> specimen book. It has survived not only five
-                            centuries,
-                            but also <br> the leap into electronic typesetting, remaining essentially <br> unchanged.
-                            <!-- br поменять на что-то другое, должен получиться тот же результат
-                            посмотреть по коду, где еще есть такое, и изменить -->
+                        <h1> <span class="text-color_green"> We are </span> <span class="text-color_orange"> professional <br> experienced </span>
+                            <span class="text-color_green"> gardeners </span> </h1>
+                        <p class="textp2">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book. It has survived not
+                            only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.
                         </p>
                     </div>
                 </div>
@@ -126,16 +121,12 @@
             <section class="prices">
                 <div class="prices-wrapper">
                     <div class="prices2">
-                        <p> <strong> Prices </strong> </p> <!--здесь всего одно слово, поэтому можно было бы
-                        обойтись без тега strong, подумай, как-->
+                        <h1> Prices </h1>
                         <div class="prices-item">
                             <div class="price-item">
-
-                                <!-- вот тут ошибка: id - это уникальный идентификатор, а у тебя 3 одинаковых айдишника, так не должно быть -->
-                                <div class="price-btn">Pro care <div class="img-arrow"><img id="circles" src="assets/images/arrow.png" alt="circle"></div></div>
-                                <div class="price-btn">Standard <div class="img-arrow"><img id="circles" src="assets/images/arrow.png" alt="circle"></div></div>
-                                <div class="price-btn">Basics <div class="img-arrow"><img id="circles" src="assets/images/arrow.png" alt="circle"></div></div>
-                            <!--  -->
+                                <div class="price-btn">Pro care <div class="img-arrow"><img src="assets/images/arrow.png" alt="circle"></div></div>
+                                <div class="price-btn">Standard <div class="img-arrow"><img src="assets/images/arrow.png" alt="circle"></div></div>
+                                <div class="price-btn">Basics <div class="img-arrow"><img src="assets/images/arrow.png" alt="circle"></div></div>
                             </div>
                         </div>
                     </div>
@@ -149,11 +140,9 @@
                 </div>
             </section>
             <section class="contacts">
-                <div class="contactp"><p>Contact us</p></div> <!--p в div не нужно делать, это два блочных элемента, а больше нет ничего в этом div => нет смысле-->
+                <p>Contact us</p> 
                 <div class="contacts-container">
-                    <!-- еще ошибка: нехорошо блочный элемент вкладывать в строчный (https://www.w3schools.com/html/html_blocks.asp) -->
-                    <button>City <div class="img-arrow"><img id="circle" src="assets/images/arrow.png" alt="circle"></div></button>
-                    <!--  -->
+                    <div class="contacts-btn">City <div class="img-arrow"><img src="assets/images/arrow.png" alt="circle"></div></div>
                 </div>
                 <div>
                     <img id="contact-woman" src="assets/images/contact-woman.png" alt="contact-woman">
@@ -177,5 +166,3 @@
         </div>
     </body>
 </html>
-
-<!-- классы нужно будет переименовать, чтобы были более осмысленные названия <3 -->

@@ -12,9 +12,6 @@
 }
 
 .wrapper { 
-   /* max-width: 1440px; 
-   margin: 0 auto;
-   padding: 65px 30px; */
    font-family: "Stack Sans Text", sans-serif;
    font-style: normal;
    background-color: rgba(96, 217, 156, 0.115);
@@ -39,19 +36,8 @@ header {
     gap: 40px;
 }
 
-.header-menu span {
-    color: #e4610f;
-}
-
 .header-menu li {
     font-size: 16px;
-}
-
-.welcome {
-    /* max-width: 1440px;  */
-    margin: 0 auto;
-    /* padding: 65px 30px; */
-    background-color: rgba(96, 217, 156, 0.115);
 }
 
 .welcome-leafs {
@@ -60,6 +46,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     column-gap: 225px;
+    background-color: rgba(96, 217, 156, 0.115);
 }
 
 .plants {
@@ -76,8 +63,7 @@ header {
     font-weight: 400;
 }
 
-.text1 {
-    max-width: 1440px; 
+.text1 { 
     margin: 0 auto;
     font-size: 20px;
     display: flex;
@@ -98,14 +84,14 @@ header {
     font-size: 20px;
     font-family: "Inter Tight";
     font-weight: 400;
+    white-space: pre-line;
 }
 
 .about {
     background-color: white;
 }
 
-.about2 {
-    max-width: 1440px; 
+.about2 { 
     margin: 0 auto;
     padding: 109px 94px;
     display: flex;
@@ -130,12 +116,11 @@ header {
     font-size: 20px;
     font-family: "Inter Tight";
     font-weight: 400;
+    white-space: pre-line;
 }
 
 .logo {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
 }
 
 #leaf {
@@ -145,48 +130,32 @@ header {
 
 #leafs {
     width: 449px;
-    /* height: 407px;
-    margin-left: 20px; */
     display: flex;
-    /* flex-direction: row;
-    justify-content: flex-start; */
 }
 
 #flowerpot {
     width: 464px;
     height: 479px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
 }
 
-.pupu {
+.welcome-header {
   font-weight: weight;
 }
 
-.pupu span {
+.text-color_green {
     color: #499A18;
 }
 
-.pipi {
-    color: #499A18;
-}
-
-.pepe {
+.text-color_orange {
     color: #e4610f;
 }
 
-.pipi2 {
-    color: #499A18;
-}
-
 .service {
-    max-width: 1440px; 
     margin: 0 auto;
     padding: 109px 94px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: rgba(96, 217, 156, 0.115);
 }
 
@@ -199,8 +168,6 @@ h2 {
 
 .service-btns {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     column-gap: 38px;
 }
 
@@ -333,12 +300,9 @@ h3 {
 }
 
 .prices {
-    /* max-width: 1440px; 
-    height: 560px; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .prices-wrapper {
@@ -348,11 +312,7 @@ h3 {
 }
 
 .prices-img-wrapper {
-    /* width: 1222px;
-    height: 405px; */
     display: flex;
-    /* justify-content: flex-end;
-    align-items: flex-end; */
 }
 
 .img-arrow {
@@ -394,26 +354,19 @@ h3 {
 }
 
 .prices2 {
-    width: 332px;
-    height: 392px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
     row-gap: 60px;
     font-family: "Inter Tight";
     font-weight: 700;
 }
 
-.prices2 p {
+.prices2 h1 {
     font-size: 40px;
-    display: flex;
-    justify-content: center;
 }
 
 .text-call-us p {
-    /* width: 452px;
-    height: 103px; */
     font-size: 40px;
     font-family: "Inter Tight";
     font-weight: 700;
@@ -427,7 +380,6 @@ h3 {
 
 .price-item {
     width: 250px;
-    height: 215px;
     display: flex;
     flex-direction: column-reverse;
     row-gap: 32px;
@@ -445,14 +397,7 @@ h3 {
     background-color: rgba(96, 217, 156, 0.115);
 }
 
-#circle {
-   display: flex;
-  
-}
-
 .contacts {
-    /* max-width: 1440px; 
-    height: 550px; */
     margin: 0 auto;
     padding: 109px 94px;
     display: flex;
@@ -467,7 +412,7 @@ h3 {
     font-weight: 400;
 }
 
-.contacts-container button {
+.contacts-btn {
     width: 450px;
     height: 50px;
     font-size: 20px;
@@ -490,12 +435,9 @@ h3 {
 #contact-woman {
     width: 500px;
     height: 597px;
-    /* margin-top: -35px; */
 }
 
 footer {
-    /* width: 1440px;
-    height: 130px; */
     margin: 0 auto;
 }
 
@@ -522,12 +464,6 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-   .wrapper { 
-        /* max-width: 768px; 
-        margin: 0 auto;
-        padding: 65px 30px; */
-    }
-
     header {
         font-weight: 400;
         font-family: "Inika";
@@ -593,9 +529,11 @@ footer {
 
     .text1 p {
         font-size: 16px;
+        margin-bottom: -30px;
     }
 
     #learn-more {
+        margin-top: 30px;
         border-radius: 10px;
         padding: 14px 27px;
     }
@@ -622,14 +560,11 @@ footer {
         padding: 33px 247px;
         gap: 18px;
     }
+
+    .textp2 {
+        line-height: 30px;
+    }
 }
 
 /* здесь общем напишу:
-1) почистить закомментированные куски
-2) убрать width там, где это не нужно (не везде убрала), можно оставить для:
-- картинок
-- кнопок
-- иконок
-3) убрать стили по умолчанию, их незачем дублировать (посмотреть, какие это стили, если не помнишь)
-4) убрать дублирубщийся код там, где это не нужно
 5) в респонсиве лучше использовать относительные единицы (осторожно)*/
