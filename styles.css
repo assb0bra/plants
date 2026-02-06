@@ -15,12 +15,14 @@
    font-family: "Stack Sans Text", sans-serif;
    font-style: normal;
    background-color: rgba(96, 217, 156, 0.115);
+   overflow: hidden;
 }
 
 .navbar {
     padding: 110px 40px 105px 40px;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(96, 217, 156, 0.115);
 }
 
 header {
@@ -85,6 +87,7 @@ header {
     font-family: "Inter Tight";
     font-weight: 400;
     white-space: pre-line;
+    color: #636060;
 }
 
 .about {
@@ -117,6 +120,7 @@ header {
     font-family: "Inter Tight";
     font-weight: 400;
     white-space: pre-line;
+    color: #636060;
 }
 
 .logo {
@@ -186,6 +190,8 @@ h2 {
     height: 50px;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: 400;
+    font-family: "Inika";
     background-color: #E0673300;
     border: 2px solid #E06733;
     color: #E06733;
@@ -410,6 +416,7 @@ h3 {
     justify-content: flex-end;
     font-family: "Inter Tight";
     font-weight: 400;
+    box-shadow: 5px 5px 5px #717171;
 }
 
 .contacts-btn {
@@ -421,6 +428,7 @@ h3 {
     align-items: center;
     padding: 0px 10px;
     background-color: #D6E7D2;
+    color: #717171;
 }
 
 .contacts p {
@@ -480,6 +488,7 @@ footer {
 
     .navbar {
         padding: 50px 70px;
+        background-color: rgba(96, 217, 156, 0.115);
     }
 
     .welcome-leafs {
@@ -489,7 +498,7 @@ footer {
 
     .text1 {
         margin-right: 0px;
-        padding: 40px 0px 70px 50px;
+        /* padding: 40px 0px 70px 50px; */
     }
 
     .text2 {
@@ -564,6 +573,222 @@ footer {
     .textp2 {
         line-height: 30px;
     }
+}
+
+@media screen and (max-width:380px) {
+
+        .burger-toggle {
+            position: relative;
+            width: 50px;
+            height: 24px;
+            border: none;
+            background-color:  rgba(96, 217, 156, 0.115);
+            z-index: 20;
+            cursor: pointer;
+        }
+
+        .burger-toggle span {
+            position: absolute;
+            width: 40px;
+            height: 3px;
+            background-color: #717171;
+            left: 4px;
+        }
+
+        .burger-toggle span:nth-child(1) {
+            transform: translateY(-10px);
+        }
+
+        .burger-toggle span:nth-child(3) {
+            transform: translateY(10px);
+        }
+
+        .burger-toggle span:nth-child(4) {
+            transform: translateY(20px);
+        }
+
+
+        .header-menu {
+            position: fixed;
+            right: 0;
+            top: 0;
+            display: block;
+            padding: 85px 50px 20px 20px;
+            background-color: white;
+            transition: transform .5s;
+            transform: translateX(0%);
+        }
+
+        .header.closed .header-menu{
+            transform: translateX(100%);
+            transition: transform .5s;
+        }
+
+        .header.open .burger-toggle span {
+          background-color: #717171;
+        }
+
+        .leafs {
+            display: none;
+        }
+
+        #leaf {
+            margin-left: -50px;
+        }
+
+        .text1 {
+            margin-left: -25px;
+        }
+
+        .prices-img-wrapper {
+            display: none;
+        }
+
+        .navbar {
+            background-color: rgba(96, 217, 156, 0.115);
+        }
+
+        .logo {
+            display: flex;
+
+        }
+
+        .contacts-btn {
+            width: 300px;
+            height: 50px;
+        }
+
+        #flowerpot {
+            width: 150px;
+            height: 147px;
+        }
+
+        #contact-woman {
+            width: 100px;
+            height: 124px;
+        }
+
+        #learn-more {
+            padding: 8px 18px;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .gardens-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+        }
+
+        .lawn-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+        }
+
+        .planting-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+            margin-top: 50px;
+            margin-left: -325px;
+        }
+
+        .service-content {
+            flex-direction: column;
+            margin-left: -50px;
+            margin-bottom: 40px;
+        }
+
+        .service-content h2 {
+            width: 187px;
+            font-size: 25px;
+        }
+
+        .price-item {
+            font-size: 15px;
+            row-gap: 13px;
+        }
+
+        .prices2 h1 {
+            font-size: 25px;
+        }
+
+        .content-footer {
+            padding: 15px;
+        }
+
+        .text1 h1 {
+            font-size: 25px;
+            line-height: 35px;
+            padding: 0px 10px;
+            margin-left: -10px;
+        }
+
+        .text2 h1 {
+            font-size: 25px;
+            line-height: 39px;
+        }
+
+        .text1 p {
+            line-height: 30px;
+            margin-top: -18px;
+        }
+
+        .textp2 {
+            font-size: 15px;
+            line-height: 25px;
+            white-space:inherit;
+        }
+
+        .price-btn {
+            width: 180px;
+            height: 49px;
+        }
+
+        .prices-item {
+            width: 224px;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+
+        .prices2 {
+            align-items: center;
+        }
+
+        .text-call-us p {
+            font-size: 20px;
+            text-align: center;
+            line-height: 37px;
+            padding: 0px 10px;
+        }
+
+        .call-us-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+        }
+
+        .prices-wrapper {
+            flex-direction: column;
+        }
+
+        .about2 {
+            padding: 30px 31px;
+        }
+
+        .text-call-us {
+            gap: 14px;
+            align-items: center;
+        }
+
+        .contacts p {
+            font-size: 25px;
+        }
+
+        .content-footer p {
+            font-size: 20px;
+        }
 }
 
 /* здесь общем напишу:
