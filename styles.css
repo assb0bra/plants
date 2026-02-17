@@ -416,7 +416,6 @@ h3 {
     justify-content: flex-end;
     font-family: "Inter Tight";
     font-weight: 400;
-    box-shadow: 5px 5px 5px #717171;
 }
 
 .contacts-btn {
@@ -580,7 +579,7 @@ footer {
         .burger-toggle {
             position: relative;
             width: 50px;
-            height: 24px;
+            height: 50px;
             border: none;
             background-color:  rgba(96, 217, 156, 0.115);
             z-index: 20;
@@ -613,7 +612,8 @@ footer {
             right: 0;
             top: 0;
             display: block;
-            padding: 85px 50px 20px 20px;
+            padding: 20px 35px 20px 20px;
+            margin-top: 100px;
             background-color: white;
             transition: transform .5s;
             transform: translateX(0%);
@@ -703,6 +703,7 @@ footer {
         .service-content h2 {
             width: 187px;
             font-size: 25px;
+            margin-top: -60px;
         }
 
         .price-item {
@@ -723,6 +724,7 @@ footer {
             line-height: 35px;
             padding: 0px 10px;
             margin-left: -10px;
+            margin-top: -50px;
         }
 
         .text2 h1 {
@@ -739,6 +741,7 @@ footer {
             font-size: 15px;
             line-height: 25px;
             white-space:inherit;
+            margin-top: -30px;
         }
 
         .price-btn {
@@ -782,8 +785,27 @@ footer {
             align-items: center;
         }
 
+        .contacts-btn span {
+            margin-left: 17px;
+        }
+
+        .img-arrow {
+            margin-right: 17px;
+        }
+
+        .contacts-container {
+            margin-bottom: 120px;
+            box-shadow: 5px 5px 5px #717171;
+        }
+
+        .contact-woman-img {
+            margin-bottom: -112px;
+        }
+
         .contacts p {
             font-size: 25px;
+            margin-bottom: 80px;
+            margin-top: -70px;
         }
 
         .content-footer p {
