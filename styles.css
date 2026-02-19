@@ -12,18 +12,17 @@
 }
 
 .wrapper { 
-   max-width: 1440px; 
-   margin: 0 auto;
-   padding: 65px 30px;
    font-family: "Stack Sans Text", sans-serif;
    font-style: normal;
    background-color: rgba(96, 217, 156, 0.115);
+   overflow: hidden;
 }
 
 .navbar {
-    /* padding: 110px 40px 105px 40px; */
+    padding: 110px 40px 105px 40px;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(96, 217, 156, 0.115);
 }
 
 header {
@@ -39,19 +38,8 @@ header {
     gap: 40px;
 }
 
-.header-menu span {
-    color: #e4610f;
-}
-
 .header-menu li {
     font-size: 16px;
-}
-
-.welcome {
-    max-width: 1440px; 
-    margin: 0 auto;
-    padding: 65px 30px;
-    background-color: rgba(96, 217, 156, 0.115);
 }
 
 .welcome-leafs {
@@ -60,6 +48,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     column-gap: 225px;
+    background-color: rgba(96, 217, 156, 0.115);
 }
 
 .plants {
@@ -76,8 +65,7 @@ header {
     font-weight: 400;
 }
 
-.text1 {
-    max-width: 1440px; 
+.text1 { 
     margin: 0 auto;
     font-size: 20px;
     display: flex;
@@ -98,14 +86,15 @@ header {
     font-size: 20px;
     font-family: "Inter Tight";
     font-weight: 400;
+    white-space: pre-line;
+    color: #636060;
 }
 
 .about {
     background-color: white;
 }
 
-.about2 {
-    max-width: 1440px; 
+.about2 { 
     margin: 0 auto;
     padding: 109px 94px;
     display: flex;
@@ -130,12 +119,12 @@ header {
     font-size: 20px;
     font-family: "Inter Tight";
     font-weight: 400;
+    white-space: pre-line;
+    color: #636060;
 }
 
 .logo {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
 }
 
 #leaf {
@@ -145,48 +134,32 @@ header {
 
 #leafs {
     width: 449px;
-    height: 407px;
-    margin-left: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 #flowerpot {
     width: 464px;
     height: 479px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
 }
 
-.pupu {
+.welcome-header {
   font-weight: weight;
 }
 
-.pupu span {
+.text-color_green {
     color: #499A18;
 }
 
-.pipi {
-    color: #499A18;
-}
-
-.pepe {
+.text-color_orange {
     color: #e4610f;
 }
 
-.pipi2 {
-    color: #499A18;
-}
-
 .service {
-    max-width: 1440px; 
     margin: 0 auto;
     padding: 109px 94px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: rgba(96, 217, 156, 0.115);
 }
 
@@ -199,8 +172,6 @@ h2 {
 
 .service-btns {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     column-gap: 38px;
 }
 
@@ -219,6 +190,8 @@ h2 {
     height: 50px;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: 400;
+    font-family: "Inika";
     background-color: #E0673300;
     border: 2px solid #E06733;
     color: #E06733;
@@ -333,26 +306,19 @@ h3 {
 }
 
 .prices {
-    max-width: 1440px; 
-    height: 560px;
     margin: 0 auto;
-    padding: 109px 94px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .prices-wrapper {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 109px 94px;
 }
 
 .prices-img-wrapper {
-    width: 1222px;
-    height: 405px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
 }
 
 .img-arrow {
@@ -378,7 +344,6 @@ h3 {
 .text-call-us {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     
 }
 
@@ -395,46 +360,32 @@ h3 {
 }
 
 .prices2 {
-    width: 332px;
-    height: 392px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
     row-gap: 60px;
     font-family: "Inter Tight";
     font-weight: 700;
 }
 
-.prices2 p {
-    width: 135px;
-    height: 49px;
+.prices2 h1 {
     font-size: 40px;
-    display: flex;
-    justify-content: center;
 }
 
 .text-call-us p {
-    width: 452px;
-    height: 103px;
     font-size: 40px;
     font-family: "Inter Tight";
     font-weight: 700;
 }
 
 .prices-item {
-    width: 332px;
-    height: 283px;
+    display: flex;
     border: #E3E1D5 solid 1px;
     border-radius: 20px;
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .price-item {
     width: 250px;
-    height: 215px;
     display: flex;
     flex-direction: column-reverse;
     row-gap: 32px;
@@ -444,22 +395,15 @@ h3 {
 .price-btn {
     width: 250px;
     height: 50px;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
+    border-radius: 20px;
     background-color: rgba(96, 217, 156, 0.115);
 }
 
-#circle {
-   display: flex;
-  
-}
-
 .contacts {
-    max-width: 1440px; 
-    height: 550px;
     margin: 0 auto;
     padding: 109px 94px;
     display: flex;
@@ -474,7 +418,7 @@ h3 {
     font-weight: 400;
 }
 
-.contacts-container button {
+.contacts-btn {
     width: 450px;
     height: 50px;
     font-size: 20px;
@@ -483,6 +427,7 @@ h3 {
     align-items: center;
     padding: 0px 10px;
     background-color: #D6E7D2;
+    color: #717171;
 }
 
 .contacts p {
@@ -497,12 +442,9 @@ h3 {
 #contact-woman {
     width: 500px;
     height: 597px;
-    margin-top: -35px;
 }
 
 footer {
-    width: 1440px;
-    height: 130px;
     margin: 0 auto;
 }
 
@@ -512,7 +454,6 @@ footer {
 }
 
 .content-footer {
-    max-width: 1440px; 
     margin: 0 auto;
     padding: 109px 40px;
     display: flex;
@@ -528,3 +469,349 @@ footer {
     display: flex;
     column-gap: 10px;
 }
+
+@media screen and (max-width:768px) {
+    header {
+        font-weight: 400;
+        font-family: "Inika";
+    }
+
+    body {
+        max-width: 768px; 
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 77px;
+    }
+
+    .navbar {
+        padding: 50px 70px;
+        background-color: rgba(96, 217, 156, 0.115);
+    }
+
+    .welcome-leafs {
+        flex-direction: row;
+        column-gap: 47px;
+    }
+
+    .text1 {
+        margin-right: 0px;
+        /* padding: 40px 0px 70px 50px; */
+    }
+
+    .text2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #flowerpot {
+        width: 250px;
+        height: 258px;
+    }
+
+    .prices2 {
+        font-size: 35px;
+    }
+
+    .price-item {
+        font-size: 20px;
+    }
+
+    .text-call-us p {
+        font-size: 25px;
+    }
+
+    .prices-wrapper {
+        gap: 40px;
+        padding: 40px 51px;
+    }
+
+    #leafs {
+        width: 280px;
+    }
+
+    .text1 h1 {
+        font-size: 35px;
+    }
+
+    .text1 p {
+        font-size: 16px;
+        margin-bottom: -30px;
+    }
+
+    #learn-more {
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 14px 27px;
+    }
+
+    .about2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #contact-woman {
+        width: 200px;
+        height: 248px;
+    }
+
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 33px 247px;
+        gap: 18px;
+    }
+
+    .textp2 {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+        .burger-toggle {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color:  rgba(96, 217, 156, 0.115);
+            z-index: 20;
+            cursor: pointer;
+        }
+
+        .burger-toggle span {
+            position: absolute;
+            width: 40px;
+            height: 3px;
+            background-color: #717171;
+            left: 4px;
+        }
+
+        .burger-toggle span:nth-child(1) {
+            transform: translateY(-10px);
+        }
+
+        .burger-toggle span:nth-child(3) {
+            transform: translateY(10px);
+        }
+
+        .burger-toggle span:nth-child(4) {
+            transform: translateY(20px);
+        }
+
+
+        .header-menu {
+            position: fixed;
+            right: 0;
+            top: 0;
+            display: block;
+            padding: 20px 35px 20px 20px;
+            margin-top: 100px;
+            background-color: white;
+            transition: transform .5s;
+            transform: translateX(0%);
+        }
+
+        .header.closed .header-menu{
+            transform: translateX(100%);
+            transition: transform .5s;
+        }
+
+        .header.open .burger-toggle span {
+          background-color: #717171;
+        }
+
+        .leafs {
+            display: none;
+        }
+
+        #leaf {
+            margin-left: -50px;
+        }
+
+        .text1 {
+            margin-left: -25px;
+        }
+
+        .prices-img-wrapper {
+            display: none;
+        }
+
+        .navbar {
+            background-color: rgba(96, 217, 156, 0.115);
+        }
+
+        .logo {
+            display: flex;
+
+        }
+
+        .contacts-btn {
+            width: 300px;
+            height: 50px;
+        }
+
+        #flowerpot {
+            width: 150px;
+            height: 147px;
+        }
+
+        #contact-woman {
+            width: 100px;
+            height: 124px;
+        }
+
+        #learn-more {
+            padding: 8px 18px;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .gardens-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+        }
+
+        .lawn-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+        }
+
+        .planting-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+            margin-top: 50px;
+            margin-left: -325px;
+        }
+
+        .service-content {
+            flex-direction: column;
+            margin-left: -50px;
+            margin-bottom: 40px;
+        }
+
+        .service-content h2 {
+            width: 187px;
+            font-size: 25px;
+            margin-top: -60px;
+        }
+
+        .price-item {
+            font-size: 15px;
+            row-gap: 13px;
+        }
+
+        .prices2 h1 {
+            font-size: 25px;
+        }
+
+        .content-footer {
+            padding: 15px;
+        }
+
+        .text1 h1 {
+            font-size: 25px;
+            line-height: 35px;
+            padding: 0px 10px;
+            margin-left: -10px;
+            margin-top: -50px;
+        }
+
+        .text2 h1 {
+            font-size: 25px;
+            line-height: 39px;
+        }
+
+        .text1 p {
+            line-height: 30px;
+            margin-top: -18px;
+        }
+
+        .textp2 {
+            font-size: 15px;
+            line-height: 25px;
+            white-space:inherit;
+            margin-top: -30px;
+        }
+
+        .price-btn {
+            width: 180px;
+            height: 49px;
+        }
+
+        .prices-item {
+            width: 224px;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+
+        .prices2 {
+            align-items: center;
+        }
+
+        .text-call-us p {
+            font-size: 20px;
+            text-align: center;
+            line-height: 37px;
+            padding: 0px 10px;
+        }
+
+        .call-us-btn {
+            width: 121px;
+            height: 35px;
+            font-size: 15px;
+        }
+
+        .prices-wrapper {
+            flex-direction: column;
+        }
+
+        .about2 {
+            padding: 30px 31px;
+        }
+
+        .text-call-us {
+            gap: 14px;
+            align-items: center;
+        }
+
+        .contacts-btn span {
+            margin-left: 17px;
+        }
+
+        .img-arrow {
+            margin-right: 17px;
+        }
+
+        .contacts-container {
+            margin-bottom: 120px;
+            box-shadow: 5px 5px 5px #717171;
+        }
+
+        .contact-woman-img {
+            margin-bottom: -112px;
+        }
+
+        .contacts p {
+            font-size: 25px;
+            margin-bottom: 80px;
+            margin-top: -70px;
+        }
+
+        .content-footer p {
+            font-size: 20px;
+        }
+}
+
+/* здесь общем напишу:
+5) в респонсиве лучше использовать относительные единицы (осторожно)*/
