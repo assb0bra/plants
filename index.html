@@ -68,21 +68,16 @@
             <section class="service">
                 <div class="service-content">
                     <h2>Service and our projects</h2>
-
-                    <!-- вот тут хорошо сделано в целом, но будет нужно потом отрефачить возможно -->
                     <div class="service-btns">
-                        <button class="gardens-btn">Gardens</button>
-                        <button class="lawn-btn">Lawn</button>
-                        <button class="planting-btn">Planting</button>
-                    </div>
-                    <!--  -->    
+                        <button class="gardens-btn" onclick="distinguishSelectedProducts('gardens-btn')">Gardens</button>
+                        <button class="lawn-btn" onclick="distinguishSelectedProducts('lawn-btn')">Lawn</button>
+                        <button class="planting-btn" onclick="distinguishSelectedProducts('planting-btn')">Planting</button>
+                    </div>    
                 </div>
-
-                <!-- services тожно можно будет еще отрефачить, хоть структура оки -->
                 <div class="services">
                     <div class="service-item-gardens">
                         <div class="services-img"><img src="./assets/images/first1.jpg"></div>
-                        <div class="lorem-ipsum">
+                        <div class="lorem-ipsum"> 
                         <h3>Garden care</h3>
                         <p>Lorem Ipsum has been the industry</p>
                         </div>
@@ -95,7 +90,7 @@
                         </div>
                     </div>
                     <div class="service-item-lawn">
-                        <div class="services-img-donut"><img src="assets/images/first3.png"></div>
+                        <div class="services-img-donut services-img"><img src="assets/images/first3.png"></div>
                         <div class="lorem-ipsum">
                         <h3>Lawn care</h3>
                         <p>Lorem Ipsum has been the industry</p>

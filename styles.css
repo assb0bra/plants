@@ -63,6 +63,7 @@ header {
     font-size: 16px;
     font-family: "Inter Tight";
     font-weight: 400;
+    cursor: pointer;
 }
 
 .text1 { 
@@ -170,6 +171,10 @@ h2 {
     color: #499A18;
 }
 
+.blur {
+    filter: blur(7px);
+}
+
 .service-btns {
     display: flex;
     column-gap: 38px;
@@ -195,6 +200,7 @@ h2 {
     background-color: #E0673300;
     border: 2px solid #E06733;
     color: #E06733;
+    cursor: pointer;
 }
 
 .lawn-btn {
@@ -205,6 +211,7 @@ h2 {
     background-color: #E0673300;
     border: 2px solid #E06733;
     color: #E06733;
+    cursor: pointer;
 }
 
 .planting-btn {
@@ -215,6 +222,7 @@ h2 {
     background-color: #E0673300;
     border: 2px solid #E06733;
     color: #E06733;
+    cursor: pointer;
 }
 
 .service-item-gardens h3 {
@@ -357,6 +365,7 @@ h3 {
     color: #E06733;
     font-family: "Inika";
     font-weight: 700;
+    cursor: pointer;
 }
 
 .prices2 {
